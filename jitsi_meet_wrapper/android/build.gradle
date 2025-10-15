@@ -32,6 +32,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // HATA ÇÖZÜMÜ: Buraya namespace satırını ekleyin
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    namespace 'com.gunschu.jitsi_meet_wrapper' 
+
     compileSdkVersion 33
 
     // Required by jitsi
